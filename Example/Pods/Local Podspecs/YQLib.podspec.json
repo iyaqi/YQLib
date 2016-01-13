@@ -1,0 +1,25 @@
+{
+  "name": "YQLib",
+  "version": "0.1.0",
+  "summary": "A short description of YQLib.",
+  "description": "",
+  "homepage": "https://github.com/iyaqi/YQLib",
+  "license": "MIT",
+  "authors": {
+    "iyaqi": "ls_xyq@126.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/YQLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "YQLib": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

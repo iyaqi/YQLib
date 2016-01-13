@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'YQLib_Example', :exclusive => true do
+  pod "YQLib", :path => "../"
+end
+
+target 'YQLib_Tests', :exclusive => true do
+  pod "YQLib", :path => "../"
+
+  
+end
